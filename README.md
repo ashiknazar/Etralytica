@@ -8,6 +8,9 @@ This project demonstrates how to run a basic **MapReduce job** on a single-node 
 
 ## 📂 Repository Structure
 
+## 📂 Repository Structure
+
+```text
 ETraffic-Analytics/
 │
 ├── data/
@@ -26,6 +29,7 @@ ETraffic-Analytics/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+```
 
 ---
 
