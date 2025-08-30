@@ -1,4 +1,4 @@
-# ETraffic-Analytics 🚀
+# ETralitica
 ![](static/images/logo.png)
 A simple **web traffic analysis project** for **Ethqan Technologies**, built with **Hadoop Streaming** and **Python** (mapper & reducer).  
 
@@ -6,27 +6,32 @@ This project demonstrates how to run a basic **MapReduce job** on a single-node 
 
 ---
 
-## 📂 Repository Structure
+
 
 ## 📂 Repository Structure
 
 ```text
-ETraffic-Analytics/
+ETralytica/
 │
 ├── data/
-│   ├── input.txt              # Sample input dataset
-│   └── expected_output.txt    # Reference output (optional)
+│   ├──log_analyzer.py        # not fro bigdata tech direct file analysis 
+│   └──input.txt              # Sample input dataset   
+│
+├── data_gen/
+│   └──data_generator.py      # code i used to generate sample data
+│
+├── docs/
+│   └── project_overview.md    # expected data analysis
 │
 ├── src/
 │   ├── mapper.py              # Mapper script
 │   ├── reducer.py             # Reducer script
-│   └── run.sh                 # Helper script to run Hadoop job
+│   └── run.sh 
 │
-├── docs/
-│   └── project_overview.md    # Project explanation
+├── static/
+│   └──images
 │
 ├── .gitignore
-├── requirements.txt
 ├── README.md
 └── LICENSE
 ```
