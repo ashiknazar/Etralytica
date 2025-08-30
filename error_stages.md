@@ -1,54 +1,8 @@
 # ETralitica
 ![](static/images/logo.png)
-A simple **web traffic analysis project** for **Ethqan Technologies**, built with **Hadoop Streaming** and **Python** (mapper & reducer).  
+A simple **web traffic analysis project** for **Ethqan Technologies**, built with **Hadoop 
 
-This project demonstrates how to run a basic **MapReduce job** on a single-node Hadoop cluster, processing ~10,000 records to analyze website traffic.
-
----
-
-
-
-## Repository Structure
-
-```text
-ETralytica/
-│
-├── data/
-│   ├──log_analyzer.py        # not fro bigdata tech direct file analysis 
-│   └──input.txt              # Sample input dataset   
-│
-├── data_gen/
-│   └──data_generator.py      # code i used to generate sample data
-│
-├── docs/
-│   └── project_overview.md    # expected data analysis
-│
-├── src/
-│   ├── mapper.py              # Mapper script
-│   ├── reducer.py             # Reducer script
-│   └── run.sh 
-│
-├── static/
-│   └──images
-│
-├── .gitignore
-├── README.md
-└── LICENSE
-```
-
----
-
-## Step 1 — Project Structure
-
-- Executed `template.py` to create folder structure (not bigdata)
-- executed `data_gen/data_generator.py' to generate fake log data data
-- data is generated such that already planned the expected output('docs/project_overview.py')
-- can use log_analyzer.py to see the analysis (not bigdata tech)
-- created simple mapper.py and reducer for finding the no of success/fail requests (bigdata tech)
-
----
-
-## Step2 - Install java
+##  Install java
 
 1. install java
     -  `sudo apt update`
@@ -58,7 +12,7 @@ ETralytica/
     - echo "export PATH=\$PATH:\$JAVA_HOME/bin" >> ~/.bashrc
     - source ~/.bashrc
 
-## Step2 - Install Hadoop
+##   Install Hadoop
 
 - `wget https://downloads.apache.org/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz`
 - `sudo tar -xvzf hadoop-3.3.6.tar.gz -C /usr/local/`
