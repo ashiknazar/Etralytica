@@ -1,4 +1,4 @@
-# ETralitica
+# ETralytica
 ![](static/images/logo.png)
 A simple **web traffic analysis project** for **Ethqan Technologies**, built with **Hadoop 
 
